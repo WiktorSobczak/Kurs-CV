@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     background-color: aliceblue ;
-   
+    padding: 40px 0;
 }
 
 h2 {
@@ -26,5 +26,25 @@ header {
     padding: 10px 60px 20px 60px;
     background-color: white;
     width: 960px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+} 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header ul {
+    list-style: none;
+}
+header li {
+margin-bottom: 10px;
+}
+header address img {
+    width: 16px;
+    height: 16px;
+    background-color: cornflowerblue;
+    margin-right: 10px; 
+    padding: 3px;
+    vertical-align: middle;
 }
